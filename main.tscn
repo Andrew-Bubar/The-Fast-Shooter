@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Objects/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Objects/Dummy Mosnster.tscn" type="PackedScene" id=2]
 
 [sub_resource type="CubeMesh" id=1]
 
@@ -56,3 +57,5 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.63066, 2.14128, 0.717115 )
 speed = 20.0
 max_speed = 75.0
 jump_force = 6.0
+
+[node name="Dummy Mosnster" parent="." instance=ExtResource( 2 )]
