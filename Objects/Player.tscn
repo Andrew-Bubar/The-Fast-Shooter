@@ -11,7 +11,7 @@ radius = 0.2
 height = 0.8
 
 [node name="Player" type="KinematicBody"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.60092, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0135106, 0.620547, 0.00408673 )
 script = ExtResource( 1 )
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
@@ -33,7 +33,6 @@ transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0
 [node name="Gun3" parent="LookPiviot/Hand" instance=ExtResource( 2 )]
 
 [node name="RayCast" type="RayCast" parent="."]
-enabled = true
 cast_to = Vector3( 0, 0, 2000 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]

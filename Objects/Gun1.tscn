@@ -3,9 +3,17 @@
 [ext_resource path="res://Gun.png" type="Texture" id=1]
 [ext_resource path="res://Code/Gun1.gd" type="Script" id=2]
 
-[node name="Gun1" type="Sprite"]
+[node name="Gun1" type="Spatial"]
+script = ExtResource( 2 )
+
+[node name="RayCast" type="RayCast" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 )
+enabled = true
+cast_to = Vector3( 0, 0, -2000 )
+collision_mask = 7
+
+[node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 740.391, 443.167 )
 scale = Vector2( 0.6, 0.6 )
 texture = ExtResource( 1 )
 hframes = 4
-script = ExtResource( 2 )
