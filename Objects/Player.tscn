@@ -57,3 +57,6 @@ texture = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="OmniLight" type="OmniLight" parent="."]
+omni_range = 10.1485
