@@ -17,6 +17,5 @@ position = Vector2( 740.391, 443.167 )
 scale = Vector2( 0.6, 0.6 )
 texture = ExtResource( 1 )
 hframes = 4
-script = ExtResource( 2 )
 
 [node name="RayCast" type="RayCast" parent="."]

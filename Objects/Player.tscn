@@ -58,4 +58,4 @@ __meta__ = {
 }
 
 [node name="OmniLight" type="OmniLight" parent="."]
-omni_range = 10.1485
+omni_range = 19.957
